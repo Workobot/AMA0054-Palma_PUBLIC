@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 11
-		Day: 25
+		Day: 28
 		Hour: 11
-		Minute: 46
-		Second: 57
-		Millisecond: 837
+		Minute: 0
+		Second: 27
+		Millisecond: 260
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.3.4"
 	OtherFlags:  {
@@ -76,7 +76,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1798034195088, "Scene", "Scene" {
+	Document: 2342058877280, "Scene", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -271,7 +271,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1801619576304, "Geometry::Scene", "Mesh" {
+	Geometry: 2325236674304, "Geometry::Scene", "Mesh" {
 		Vertices: *90 {
 			a: -0,8271.32339477539,0,-0,8271.32339477539,-952.05192565918,3.06816101074219,8271.32339477539,-2101.6975402832,3591.63665771484,8271.32339477539,-2098.06175231934,3613.80615234375,8271.32339477539,-1843.20697784424,4250.32348632812,8271.32339477539,-1833.70685577393,4256.65664672852,8271.32339477539,-1159.18846130371,4687.33520507812,8271.32339477539,-1162.35580444336,4687.33520507812,8271.32339477539,-2093.38111877441,8335.43395996094,8271.32339477539,-2093.38111877441,8332.26776123047,8271.32339477539,-0.154495239257812,4538.49487304688,8271.32339477539,-6.48765563964844,4522.66082763672,8271.32339477539,-975.51383972168,4228.15246582031,8271.32339477539,-972.347259521484,4224.98626708984,8271.32339477539,9.34638977050781,3.06816101074219,0,-2101.6975402832,3591.63665771484,0,-2098.06175231934,3613.80615234375,0,-1843.20697784424,-0,0,-952.05192565918,-0,0,0,4224.98626708984,0,9.34638977050781,4228.15246582031,0,-972.347259521484,4250.32348632812,0,-1833.70685577393,4256.65664672852,0,-1159.18846130371,4522.66082763672,0,-975.51383972168,4687.33520507812,0,-1162.35580444336,4538.49487304688,0,-6.48765563964844,8332.26776123047,0,-0.154495239257812,4687.33520507812,0,-2093.38111877441,8335.43395996094,0,-2093.38111877441
 		} 
@@ -364,7 +364,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1797124818624, "Model::AMA0054_Palma_Dummy_INV", "Null" {
+	Model: 2342512212976, "Model::AMA0054_Palma_Dummy_INV", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -375,7 +375,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1797124804624, "Model::Torres1_2", "Mesh" {
+	Model: 2334372673184, "Model::Torres1_2", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -388,7 +388,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Material: 1799478477104, "Material::ProBuilderDefault", "" {
+	Material: 2344334688192, "Material::ProBuilderDefault", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -403,7 +403,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Video: 1786992121888, "Video::DiffuseColor_Texture", "Clip" {
+	Video: 2344319583616, "Video::DiffuseColor_Texture", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "C:\Workobot\Libreria\WKT001-PropsLibrary_HD\PropsLibrary_HD\Library\PackageCache\com.unity.probuilder\Content\Resources\Textures\GridBox_Default.png"
@@ -413,7 +413,7 @@ Objects:  {
 		Filename: "C:\Workobot\Libreria\WKT001-PropsLibrary_HD\PropsLibrary_HD\Library\PackageCache\com.unity.probuilder\Content\Resources\Textures\GridBox_Default.png"
 		RelativeFilename: "..\Library\PackageCache\com.unity.probuilder\Content\Resources\Textures\GridBox_Default.png"
 	}
-	Texture: 1786992138208, "Texture::DiffuseColor_Texture", "" {
+	Texture: 2344319583136, "Texture::DiffuseColor_Texture", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::DiffuseColor_Texture"
@@ -433,25 +433,25 @@ Objects:  {
 Connections:  {
 	
 	;Model::AMA0054_Palma_Dummy_INV, Model::RootNode
-	C: "OO",1797124818624,0
+	C: "OO",2342512212976,0
 	
 	;Model::Torres1_2, Model::AMA0054_Palma_Dummy_INV
-	C: "OO",1797124804624,1797124818624
+	C: "OO",2334372673184,2342512212976
 	
 	;Material::ProBuilderDefault, Model::Torres1_2
-	C: "OO",1799478477104,1797124804624
+	C: "OO",2344334688192,2334372673184
 	
 	;Geometry::Scene, Model::Torres1_2
-	C: "OO",1801619576304,1797124804624
+	C: "OO",2325236674304,2334372673184
 	
 	;Texture::DiffuseColor_Texture, Material::ProBuilderDefault
-	C: "OO",1786992138208,1799478477104
+	C: "OO",2344319583136,2344334688192
 	
 	;Texture::DiffuseColor_Texture, Material::ProBuilderDefault
-	C: "OP",1786992138208,1799478477104, "DiffuseColor"
+	C: "OP",2344319583136,2344334688192, "DiffuseColor"
 	
 	;Video::DiffuseColor_Texture, Texture::DiffuseColor_Texture
-	C: "OO",1786992121888,1786992138208
+	C: "OO",2344319583616,2344319583136
 }
 ;Takes section
 ;----------------------------------------------------
