@@ -1,0 +1,44 @@
+{
+  "entries": {
+    "[\"Palma\",\"amenidades\",\"Piscina\"]": {
+      "pose": {
+        "pitch": 3,
+        "yaw": -16,
+        "fov": 98
+      },
+      "signature": "b701c213188dc3cd8f7e0ef04cad9443cee1568d829efc8638127e31cf6d785d",
+      "outputSize": 173540,
+      "outputMtime": 1795545955852.0703
+    },
+    "[\"Palma\",\"amenidades\",\"Fogata\"]": {
+      "pose": {
+        "pitch": 0,
+        "yaw": 10,
+        "fov": 102
+      },
+      "signature": "03269514d80f949fbb6f9cebbb1ed5e59401139a682c770a6292a2e7d97556f7",
+      "outputSize": 171439,
+      "outputMtime": 1795545961959.4558
+    },
+    "[\"Palma\",\"amenidades\",\"Padel\"]": {
+      "pose": {
+        "pitch": 0,
+        "yaw": -11,
+        "fov": 90
+      },
+      "signature": "3db8346d621207f8ba27a1b0898903cc4407583aab1cfaefcbc4e025c91cfcd9",
+      "outputSize": 181881,
+      "outputMtime": 1795545970878.7358
+    },
+    "[\"Palma\",\"amenidades\",\"Wetlands\"]": {
+      "pose": {
+        "pitch": 0,
+        "yaw": -28,
+        "fov": 96
+      },
+      "signature": "2f012c96744bd3a9cd9c0341d7bdba9b53adac65de92b2572f9248478aea36ed",
+      "outputSize": 140921,
+      "outputMtime": 1795545984336.9692
+    }
+  }
+}
